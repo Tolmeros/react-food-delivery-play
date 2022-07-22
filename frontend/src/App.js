@@ -3,10 +3,10 @@ import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 import NavigationBar from "./components/NavigationBar.js";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
-import Shop from './pages/Shop.js';
-import Cart from './pages/Cart.js';
+import Shop from './pages/Shop';
+import Cart from './pages/Cart';
 
 function App() {
   return (
